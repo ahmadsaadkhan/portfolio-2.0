@@ -1,0 +1,184 @@
+{
+    "main": {
+        "name": "Ahmad Saad",
+        "occupation": "Full Stack Developer",
+        "description": "",
+        "image": "profilepic.jpg",
+        "bio": "I am a Full Stack web Developer and have 6 years of experience working with international software companies. I have a bachelor’s degree in Computer Science. Since 2014, I have served as a software engineer for many organizations, where I have been repeatedly recognized for developing innovative solutions and solving problems. I was responsible for full life cycle development of next-generation software, from initial requirement gathering to design, coding, testing, documentation and implementation.My technical expertise includes cross-platform proficiency (Windows, Linux and Mac); fluency in following scripting/programming languages (including PHP, Codeigniter, LMS Moodle, JavaScript, React, Redux, React Native Next JS, Python and MYSQL); and advanced knowledge of developer applications, tools, methodologies also on Mobile development in Flutter for cross platform development in Android IOS and web.",
+        "contactmessage": "Get in touch with me",
+        "email": "ahmad.saad.khn@gmail.com",
+        "phone": "+966 8816392",
+        "address": {
+            "street": "",
+            "city": "Jubail, Saudi Arabia",
+            "state": "",
+            "zip": ""
+        },
+        "website": "",
+        "resumedownload": "https://docs.google.com/document/d/1qPa9I5FP0Q5b-m2eZsc-D87SxalYTyv0/edit?usp=sharing&ouid=118278808579939436658&rtpof=true&sd=true",
+        "social": [{
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/ahmadsaadkhan",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ahmadsaadkhan",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "My Programming Language Proficiency",
+        "education": [{
+            "school": "Hazara University Mansehra, Pakistan",
+            "degree": "Bachelor's Degree, Computer Science",
+            "graduated": "October 2012",
+            "description": "Graduated with First Class Honours"
+        }],
+        "work": [{
+                "company": "TECH TRACK AND ROYAL COMMISSION",
+                "location": "JUBAIL, SAUDIA ARABIA",
+                "title": "FULL STACK ENGINEER",
+                "years": "DECEMBER 2019 – CURRENT",
+                "description": "Working as a full stack engineer in Moodle LMS, React, Node, MERN Stack, and Next JS on the frontend in Jubail, Saudi Arabia."
+            },
+            {
+                "company": "OSMIS EDUCATION",
+                "location": "ISLAMABAD, PAKISTAN",
+                "title": "CODEIGNITER ANGULAR JS DEVELOPER",
+                "years": "MARCH 2019 – NOVEMBER 2019",
+                "description": "An Islamabad based startup working on education management web based application develops backend in Codeigniter and frontend in Angular JS."
+            },
+            {
+                "company": "DYAD",
+                "location": "SHANGHAI CHINA",
+                "title": "FULL STACK WEB DEVELOPER",
+                "years": "MAY 2018– OCTOBER 2018",
+                "description": "Selected for a fellowship program by provincial government to travel to China for 6 months to enhance my skills and abilities in an international multi culture environment, worked in Shanghai as Full Stack Developer at Dyad.(References available)."
+            },
+            {
+                "company": "OSMIS EDUCATION",
+                "location": "ISLAMABAD, PAKISTAN",
+                "title": "CODEIGNITER ANGULAR JS DEVELOPER",
+                "years": "MARCH 2017 – FEBURARY 2018",
+                "description": "An Islamabad based startup working on education management web based application develops backend in Codeigniter and frontend in Angular JS."
+            },
+            {
+                "company": "DIGITECH UK",
+                "location": "REMOTE",
+                "title": "PHP WEB DEVELOPER",
+                "years": "DECEMBER 2015 – MARCH 2017",
+                "description": "Worked as a remote developer for a UK based airport parking company manage their front end backend development and PayPal and World Pay payment integration."
+            },
+            {
+                "company": "HOME ARENA",
+                "location": "ISLAMABAD, PAKISTAN",
+                "title": "PHP WEB DEVELOPER",
+                "years": "FEBURARY 2014 – NOVEMBER 2015",
+                "description": "Started as an intern here and moved to mid - level developer position manages Ecommerce development in Magneto, website and blog development."
+            }
+        ],
+        "skills": [{
+                "name": "JavaScript",
+                "level": "90%",
+                "icon": "faJsSquare"
+            },
+            {
+                "name": "React JS",
+                "level": "90%",
+                "icon": "faReact"
+            },
+            {
+                "name": "TypeScript",
+                "level": "70%"
+            },
+            {
+                "name": "Redux",
+                "level": "90%"
+            },
+            {
+                "name": "Next JS",
+                "level": "80%"
+            },
+            {
+                "name": "PHP",
+                "level": "90%"
+            },
+            {
+                "name": "Laravel",
+                "level": "90%"
+            },
+            {
+                "name": "Codeigniter",
+                "level": "90%"
+            },
+            {
+                "name": "Moodle",
+                "level": "90%"
+            },
+            {
+                "name": "Git",
+                "level": "90%"
+            },
+            {
+                "name": "MySql MongoDB FireBase",
+                "level": "90%"
+            },
+            {
+                "name": "FrontEnd / Backend Development",
+                "level": "95%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Web 3.0 Crypto Etherum Transfer (Solidity, Smart Contract, React)",
+                "category": "",
+                "image": "crypto.png",
+                "url": "https://crypto-app-saad.netlify.app/"
+            },
+            {
+                "title": "Memories Project (React, Redux, MERN Stack)",
+                "category": "",
+                "image": "memories-project.jpg",
+                "url": "https://memories-app-saad.netlify.app/posts"
+            },
+            {
+                "title": "Food App (React JS)",
+                "category": "",
+                "image": "food-app.jpg",
+                "url": "https://food-app-saad.netlify.app/"
+            },
+            {
+                "title": "Book Store (React JS Redux)",
+                "category": "",
+                "image": "book-store.jpg",
+                "url": "https://book-store-saad.netlify.app/"
+            },
+            {
+                "title": "Airbnb Clone (React JS Next Tailwind CSS)",
+                "category": "",
+                "image": "air-bnb.jpg",
+                "url": "https://airbnb-clone-teal-eta.vercel.app/"
+            },
+            {
+                "title": "Portfolio (React JS)",
+                "category": "",
+                "image": "portfolio-app.png",
+                "url": "https://portfolio-app-saad.netlify.app/"
+            },
+            {
+                "title": "Todo App (React JS Typescript)",
+                "category": "",
+                "image": "todo-app.png",
+                "url": "https://todo-app-saad.netlify.app/"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [{
+            "text": "it's easy to get motivated, but hard to stay disciplined"
+        }]
+    }
+}

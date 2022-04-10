@@ -1,0 +1,18 @@
+.skills {
+    border: 1px solid #fdd6015c;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 15%;
+    float: left;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    h3 {
+        font-size: 30px;
+        color: #ffd700;
+    }
+    .info {
+        color: #ccc;
+        font-size: 20px;
+    }
+}

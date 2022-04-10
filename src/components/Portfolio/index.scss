@@ -1,0 +1,29 @@
+.portfolio-item {
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 398px;
+    float: left;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border: 1px solid #ffd700;
+    border-radius: 10px;
+    min-height: 400px;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    .item-wrap a {
+        display: block;
+        cursor: pointer;
+    }
+    img {
+        width: 394px;
+        border-radius: 5px;
+    }
+    h6 {
+        font-size: 20px;
+        color: #ffd700;
+    }
+}

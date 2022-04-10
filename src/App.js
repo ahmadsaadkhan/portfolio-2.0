@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/Home';
+import About from './components/About';
+import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
-function App() {
+const App = () => {
+  const [resumeData, setResumeData] = useState({});
+
+  useEffect(() => {
+    fetch("/resumeData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setResumeData(data);
+      });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />} >
+        <Route index element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/experience' element={<Experience data={resumeData.resume} />} />
+        <Route path='/portfolio' element={<Portfolio data={resumeData.portfolio} />} />
+        <Route path='/skills' element={<Skills data={resumeData.resume} />} />
+        <Route path='/contact' element={<Contact />} />
+      </Route>
+    </Routes>
   );
 }
 
